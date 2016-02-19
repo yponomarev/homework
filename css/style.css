@@ -1,22 +1,14 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400);
-
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 body{
-    background-color: #f9f9f9;
+    background-color:#f9f9f9;
+    margin: auto;
     font: 13px/21px "Open Sans", sans-serif;
 }
-ul{
-    list-style: none;
-}
-.clear-fix :after{
-    content: "";
-    display: block;
-    clear: both;
-}
+
 .container {
     background: #fff;
     width: 1060px;
@@ -24,17 +16,114 @@ ul{
     padding: 51px 47px 60px;
     box-shadow: 0 -5px 5px rgba(0, 0, 0, .3)
 }
-.nav-menu {
-    background: #000;
+header{
+    background: linear-gradient(#5e5e5e, #454444);
 }
-.nav-menu__item {
+header li{
+    display: block;
+    float: left;
+    width: 120px;
+    height: 40px;
+    border: 1px transparent solid;
+    text-align: center;
+}
+header li:hover{
+    background: linear-gradient(#2e2e2e,#4a4a4a);
+    border-left: 1px solid #838383;
+    border-right: 1px solid #838383;
+}
+header ul li a{
+    display: block;
+    padding: 10px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #000000;
+}
+.logo {
+    width: 140px;
+    margin: 0 0 40px;
+}
+.left-menu{
+    display: block;
+    margin-top: 40px;
     float : left;
 }
-
-.nav-menu__link {
+.left-menu__item{
     display: block;
-    color: #fff;
-    padding: 9px 24px 10px;
-    text-decoration: none;
-    background: #555555;
+    border: 1px solid #c8c8c8;
+    width: 240px;
+    height: 40px;
+    color: #656363;
+    horiz-align: center;
 }
+.left-menu__item:hover{
+    padding: 0 20px;
+    color: #2c2c2c;
+    background-color: #f9f9f9;
+}
+nav li a{
+    text-decoration: none;
+    margin: 10px;
+    color: #656363;
+    padding: 10px;
+}
+nav li a :hover{
+    color: #2c2c2c;
+}
+.item {
+    float: right;
+}
+.photo {
+    width: 675px;
+    margin: 40px 10px;
+    border: 1px solid #c8c8c8;
+}
+div p{
+    font-size: 10px;
+    font-family: "Open Sans", Arial;
+    color: rgb(44, 44, 44);
+    line-height: 1.6;
+}
+.inform {
+    width: 630px;
+    margin-left: auto;
+    margin-bottom: 60px;
+    padding: 40px 0;
+
+}
+div p{
+    font-size: 13px;
+    font-family: "Open Sans", Sans-Serif;
+    color: rgb(44, 44, 44);
+    line-height: 1.6;
+}
+footer {
+    background: #e1e1e1;
+}
+footer li {
+    display: block;
+    float: left;
+    width: 120px;
+    height: 40px;
+    padding: 10px 25px;
+}
+footer li a{
+    text-decoration: none;
+    color: #2c2c2c;
+}
+footer li a:hover {
+    text-decoration: underline;
+    color: #2c2c2c;
+}
+.clear-fix :after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.trade_mark{
+    display: block;
+    width: 250px;
+    float: right;
+    text-align: left;
+}
+
