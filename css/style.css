@@ -27,6 +27,7 @@ header li{
     border: 1px transparent solid;
     text-align: center;
 }
+
 header li:hover{
     background: linear-gradient(#2e2e2e,#4a4a4a);
     border-left: 1px solid #838383;
@@ -34,7 +35,8 @@ header li:hover{
 }
 header ul li a{
     display: block;
-    padding: 10px 20px;
+    font-size: 15px;
+    padding: 8px 20px;
     color: #ffffff;
     text-decoration: none;
     text-shadow: 1px 1px 2px #000000;
@@ -45,19 +47,22 @@ header ul li a{
 }
 .left-menu{
     display: block;
+    border: 1px solid #c8c8c8;
+    border-bottom: transparent;
     margin-top: 40px;
     float : left;
 }
 .left-menu__item{
     display: block;
-    border: 1px solid #c8c8c8;
+    border-bottom: 1px solid #c8c8c8;
     width: 240px;
     height: 40px;
     color: #656363;
+    padding-top: 10px;
     horiz-align: center;
 }
 .left-menu__item:hover{
-    padding: 0 20px;
+    padding: 10px 10px;
     color: #2c2c2c;
     background-color: #f9f9f9;
 }
@@ -78,22 +83,15 @@ nav li a :hover{
     margin: 40px 10px;
     border: 1px solid #c8c8c8;
 }
-div p{
-    font-size: 10px;
-    font-family: "Open Sans", Arial;
-    color: rgb(44, 44, 44);
-    line-height: 1.6;
-}
 .inform {
     width: 630px;
     margin-left: auto;
     margin-bottom: 60px;
     padding: 40px 0;
-
 }
 div p{
     font-size: 13px;
-    font-family: "Open Sans", Sans-Serif;
+    font-family: "Open Sans", sans-serif;
     color: rgb(44, 44, 44);
     line-height: 1.6;
 }
